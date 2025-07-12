@@ -1,0 +1,1070 @@
+25.07.12 10:59:07.344 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.15+6
+25.07.12 10:59:07.484 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.07.12 10:59:07.503 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@889c37d{/,null,AVAILABLE}
+25.07.12 10:59:07.534 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@11028d73{STARTING}[11.0.22,sto=0] @5222ms
+25.07.12 10:59:07.846 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3e193b6e{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 10:59:07.924 [FelixStartLevel] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@7dfaadf2(openmuc,h=[openmuc],a=[],w=[]) for Server@2374e65e[provider=null,keyStore=file:///C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/https-certificate.jks,trustStore=null]
+25.07.12 10:59:08.112 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1fc5dbe5{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 10:59:08.112 [FelixStartLevel] INFO  org.apache.felix.http - Started Jetty 11.0.22 at port(s) HTTP:8888 HTTPS:8889 on context path / [minThreads=8,maxThreads=200,acceptors=1,selectors=4]
+25.07.12 10:59:08.567 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf\channels.xml
+25.07.12 10:59:08.598 [FelixStartLevel] ERROR o.o.f.core.datamanager.DataManager - Error parsing OpenMUC config file: org.xml.sax.SAXParseException; systemId: file:/C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/channels.xml; lineNumber: 2; columnNumber: 6; The processing instruction target matching "[xX][mM][lL]" is not allowed.
+25.07.12 10:59:08.598 [FelixStartLevel] ERROR o.o.f.core.datamanager.DataManager - Stopping Framework.
+25.07.12 10:59:08.621 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.07.12 10:59:08.621 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - New empty config file: conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 10:59:08.809 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.07.12 10:59:08.918 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - New empty config file: conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 10:59:09.214 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.07.12 10:59:09.400 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Deactivating SQL Logger
+25.07.12 10:59:09.416 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Stopped Server@11028d73{STOPPING}[11.0.22,sto=0]
+25.07.12 10:59:09.416 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3e193b6e{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 10:59:09.416 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1fc5dbe5{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 10:59:09.431 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@889c37d{/,null,STOPPED}
+25.07.12 10:59:09.444 [FelixStartLevel] INFO  org.apache.felix.http - Stopped Jetty
+25.07.12 11:03:09.500 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.15+6
+25.07.12 11:03:09.563 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.07.12 11:03:09.594 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@aa78c6e{/,null,AVAILABLE}
+25.07.12 11:03:09.594 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@4eb348c6{STARTING}[11.0.22,sto=0] @1820ms
+25.07.12 11:03:09.703 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@54be7691{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 11:03:09.735 [FelixStartLevel] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@4e23a7c4(openmuc,h=[openmuc],a=[],w=[]) for Server@6e16b6f2[provider=null,keyStore=file:///C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/https-certificate.jks,trustStore=null]
+25.07.12 11:03:09.813 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@29e10c47{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 11:03:09.813 [FelixStartLevel] INFO  org.apache.felix.http - Started Jetty 11.0.22 at port(s) HTTP:8888 HTTPS:8889 on context path / [minThreads=8,maxThreads=200,acceptors=1,selectors=4]
+25.07.12 11:03:10.139 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf\channels.xml
+25.07.12 11:03:10.155 [FelixStartLevel] ERROR o.o.f.core.datamanager.DataManager - Error parsing OpenMUC config file: org.xml.sax.SAXParseException; systemId: file:/C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/channels.xml; lineNumber: 2; columnNumber: 6; The processing instruction target matching "[xX][mM][lL]" is not allowed.
+25.07.12 11:03:10.155 [FelixStartLevel] ERROR o.o.f.core.datamanager.DataManager - Stopping Framework.
+25.07.12 11:03:10.170 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.07.12 11:03:10.233 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.07.12 11:03:10.437 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.07.12 11:03:10.545 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Deactivating SQL Logger
+25.07.12 11:03:10.561 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Stopped Server@4eb348c6{STOPPING}[11.0.22,sto=0]
+25.07.12 11:03:10.561 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@54be7691{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 11:03:10.561 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@29e10c47{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 11:03:10.561 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@aa78c6e{/,null,STOPPED}
+25.07.12 11:03:10.581 [FelixStartLevel] INFO  org.apache.felix.http - Stopped Jetty
+25.07.12 11:03:18.237 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.15+6
+25.07.12 11:03:18.315 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.07.12 11:03:18.331 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5fb7d7c5{/,null,AVAILABLE}
+25.07.12 11:03:18.347 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@69278724{STARTING}[11.0.22,sto=0] @1804ms
+25.07.12 11:03:18.472 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@39467350{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 11:03:18.503 [FelixStartLevel] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@74bc0517(openmuc,h=[openmuc],a=[],w=[]) for Server@325bf77a[provider=null,keyStore=file:///C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/https-certificate.jks,trustStore=null]
+25.07.12 11:03:18.597 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7e1c573c{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 11:03:18.597 [FelixStartLevel] INFO  org.apache.felix.http - Started Jetty 11.0.22 at port(s) HTTP:8888 HTTPS:8889 on context path / [minThreads=8,maxThreads=200,acceptors=1,selectors=4]
+25.07.12 11:03:18.909 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf\channels.xml
+25.07.12 11:03:18.925 [FelixStartLevel] ERROR o.o.f.core.datamanager.DataManager - Error parsing OpenMUC config file: org.xml.sax.SAXParseException; systemId: file:/C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/channels.xml; lineNumber: 2; columnNumber: 6; The processing instruction target matching "[xX][mM][lL]" is not allowed.
+25.07.12 11:03:18.925 [FelixStartLevel] ERROR o.o.f.core.datamanager.DataManager - Stopping Framework.
+25.07.12 11:03:18.940 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.07.12 11:03:19.018 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.07.12 11:03:19.672 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.07.12 11:03:19.737 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Deactivating SQL Logger
+25.07.12 11:03:19.753 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Stopped Server@69278724{STOPPING}[11.0.22,sto=0]
+25.07.12 11:03:19.768 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@39467350{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 11:03:19.768 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7e1c573c{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 11:03:19.768 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5fb7d7c5{/,null,STOPPED}
+25.07.12 11:03:19.780 [FelixStartLevel] INFO  org.apache.felix.http - Stopped Jetty
+25.07.12 11:03:54.543 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.15+6
+25.07.12 11:03:54.605 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.07.12 11:03:54.621 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5fb7d7c5{/,null,AVAILABLE}
+25.07.12 11:03:54.636 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@69278724{STARTING}[11.0.22,sto=0] @1729ms
+25.07.12 11:03:54.761 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@39467350{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 11:03:54.793 [FelixStartLevel] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@74bc0517(openmuc,h=[openmuc],a=[],w=[]) for Server@325bf77a[provider=null,keyStore=file:///C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/https-certificate.jks,trustStore=null]
+25.07.12 11:03:54.871 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7e1c573c{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 11:03:54.871 [FelixStartLevel] INFO  org.apache.felix.http - Started Jetty 11.0.22 at port(s) HTTP:8888 HTTPS:8889 on context path / [minThreads=8,maxThreads=200,acceptors=1,selectors=4]
+25.07.12 11:03:55.183 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf\channels.xml
+25.07.12 11:03:55.214 [FelixStartLevel] WARN  o.o.f.core.datamanager.Device - No driver bundle available for configured driver: 'modbus'.
+25.07.12 11:03:55.247 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Activating Ascii Logger
+25.07.12 11:03:55.247 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: asciilogger
+25.07.12 11:03:55.262 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.07.12 11:03:55.272 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: sqllogger
+25.07.12 11:03:55.308 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: aggregator
+25.07.12 11:03:55.329 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: csv
+25.07.12 11:03:55.341 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Activating MathDriver
+25.07.12 11:03:55.342 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: math
+25.07.12 11:03:55.356 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: modbus
+25.07.12 11:03:55.359 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.driver.modbus.ModbusDriver - Set sampling timeout to 3000 ms.
+25.07.12 11:03:55.363 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.07.12 11:03:55.378 [OpenMUC Data Manager Pool - thread-1] ERROR o.o.f.d.m.tcp.ModbusTCPConnection - Unable to connect to device 127.0.0.1:502
+org.openmuc.framework.driver.spi.ConnectionException: java.net.ConnectException: Connection refused: getsockopt
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.connect(ModbusTCPConnection.java:84)
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.<init>(ModbusTCPConnection.java:69)
+	at org.openmuc.framework.driver.modbus.ModbusDriver.connect(ModbusDriver.java:112)
+	at org.openmuc.framework.core.datamanager.ConnectTask.run(ConnectTask.java:44)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.ghgande.j2mod.modbus.net.TCPMasterConnection.connect(TCPMasterConnection.java:146)
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.connect(ModbusTCPConnection.java:82)
+	... 6 common frames omitted
+25.07.12 11:03:55.379 [OpenMUC Data Manager Pool - thread-1] WARN  o.o.f.core.datamanager.ConnectTask - Unable to connect to device device1 because null.
+Will try again in 60000 ms.
+25.07.12 11:03:55.481 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 18e227cc-65d7-455d-9f1a-7ba0e6a9b6c1
+25.07.12 11:03:55.481 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - updated server mappings for 18e227cc-65d7-455d-9f1a-7ba0e6a9b6c1
+25.07.12 11:03:55.481 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:03:55.591 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Access Tool.
+25.07.12 11:03:55.591 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Configurator.
+25.07.12 11:03:55.591 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Exporter.
+25.07.12 11:03:55.591 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Plotter.
+25.07.12 11:03:55.591 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Media Viewer.
+25.07.12 11:03:55.591 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Simple Demo Visualisation.
+25.07.12 11:03:55.591 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin User Configurator.
+25.07.12 11:03:55.591 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - Activating WebUI Base
+25.07.12 11:03:55.622 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Configurator
+25.07.12 11:03:55.622 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Access Tool
+25.07.12 11:03:55.622 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Plotter
+25.07.12 11:03:55.622 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Media Viewer
+25.07.12 11:03:55.622 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Simple Demo Visualisation
+25.07.12 11:03:55.622 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: User Configurator
+25.07.12 11:03:55.622 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Exporter
+25.07.12 11:03:55.653 [FelixStartLevel] INFO  o.o.f.server.restws.RestServer - Activating REST Server
+25.07.12 11:03:55.716 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.07.12 11:03:56.025 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:03:58.033 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - sql driver
+25.07.12 11:03:58.033 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - URL is: jdbc:h2:retry:file:./data/h2/h2;AUTO_SERVER=TRUE;MODE=MYSQL
+25.07.12 11:03:58.050 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 18e227cc-65d7-455d-9f1a-7ba0e6a9b6c1
+25.07.12 11:03:58.054 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - No updates in mappings. Leaving server unchanged
+25.07.12 11:03:58.055 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:03:58.591 [CM Configuration Updater (Update: pid=org.openmuc.framework.lib.ssl.SslManager)] INFO  o.o.framework.lib.ssl.SslManager - Successfully loaded
+25.07.12 11:03:58.591 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Server 414799c2-ca19-45ad-b93c-9899526956e5 got update with {felix.fileinstall.filename=file:/C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg, port=10003, schedulingEnabled=true, sclPath=conf/iec61850-server-example.cid, service.pid=org.openmuc.framework.server.iec61850.server.Iec61850Server}
+25.07.12 11:03:58.592 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 414799c2-ca19-45ad-b93c-9899526956e5
+25.07.12 11:04:45.166 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.15+6
+25.07.12 11:04:45.228 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.07.12 11:04:45.244 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5fb7d7c5{/,null,AVAILABLE}
+25.07.12 11:04:45.260 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@69278724{STARTING}[11.0.22,sto=0] @1802ms
+25.07.12 11:04:45.385 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@39467350{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 11:04:45.416 [FelixStartLevel] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@74bc0517(openmuc,h=[openmuc],a=[],w=[]) for Server@325bf77a[provider=null,keyStore=file:///C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/https-certificate.jks,trustStore=null]
+25.07.12 11:04:45.494 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7e1c573c{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 11:04:45.494 [FelixStartLevel] INFO  org.apache.felix.http - Started Jetty 11.0.22 at port(s) HTTP:8888 HTTPS:8889 on context path / [minThreads=8,maxThreads=200,acceptors=1,selectors=4]
+25.07.12 11:04:45.873 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf\channels.xml
+25.07.12 11:04:45.889 [FelixStartLevel] WARN  o.o.f.core.datamanager.Device - No driver bundle available for configured driver: 'modbus'.
+25.07.12 11:04:45.925 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Activating Ascii Logger
+25.07.12 11:04:45.929 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: asciilogger
+25.07.12 11:04:45.946 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.07.12 11:04:45.959 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: sqllogger
+25.07.12 11:04:45.978 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: aggregator
+25.07.12 11:04:46.014 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: csv
+25.07.12 11:04:46.025 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Activating MathDriver
+25.07.12 11:04:46.027 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: math
+25.07.12 11:04:46.042 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: modbus
+25.07.12 11:04:46.044 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.driver.modbus.ModbusDriver - Set sampling timeout to 3000 ms.
+25.07.12 11:04:46.049 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.07.12 11:04:46.059 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.d.m.tcp.ModbusTCPConnection - Modbus Device: 127.0.0.1:502 connected
+25.07.12 11:04:46.140 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 20ff6ab7-bcfe-41f6-af62-f93433ce8242
+25.07.12 11:04:46.140 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - updated server mappings for 20ff6ab7-bcfe-41f6-af62-f93433ce8242
+25.07.12 11:04:46.141 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:04:46.205 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Access Tool.
+25.07.12 11:04:46.206 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Configurator.
+25.07.12 11:04:46.206 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Exporter.
+25.07.12 11:04:46.206 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Plotter.
+25.07.12 11:04:46.207 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Media Viewer.
+25.07.12 11:04:46.207 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Simple Demo Visualisation.
+25.07.12 11:04:46.207 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin User Configurator.
+25.07.12 11:04:46.208 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - Activating WebUI Base
+25.07.12 11:04:46.221 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Configurator
+25.07.12 11:04:46.222 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Access Tool
+25.07.12 11:04:46.222 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Plotter
+25.07.12 11:04:46.224 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Media Viewer
+25.07.12 11:04:46.224 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Simple Demo Visualisation
+25.07.12 11:04:46.225 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: User Configurator
+25.07.12 11:04:46.226 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Exporter
+25.07.12 11:04:46.247 [FelixStartLevel] INFO  o.o.f.server.restws.RestServer - Activating REST Server
+25.07.12 11:04:46.295 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.07.12 11:04:48.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:04:48.623 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - sql driver
+25.07.12 11:04:48.625 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - URL is: jdbc:h2:retry:file:./data/h2/h2;AUTO_SERVER=TRUE;MODE=MYSQL
+25.07.12 11:04:48.640 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 20ff6ab7-bcfe-41f6-af62-f93433ce8242
+25.07.12 11:04:48.645 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - No updates in mappings. Leaving server unchanged
+25.07.12 11:04:48.646 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:04:52.002 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:04:53.197 [CM Configuration Updater (Update: pid=org.openmuc.framework.lib.ssl.SslManager)] INFO  o.o.framework.lib.ssl.SslManager - Successfully loaded
+25.07.12 11:04:53.198 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Server 13211a82-a489-4091-baec-bef55e74733e got update with {felix.fileinstall.filename=file:/C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg, port=10003, schedulingEnabled=true, sclPath=conf/iec61850-server-example.cid, service.pid=org.openmuc.framework.server.iec61850.server.Iec61850Server}
+25.07.12 11:04:53.199 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 13211a82-a489-4091-baec-bef55e74733e
+25.07.12 11:06:04.524 [OpenMUC Data Manager Pool - thread-1] ERROR o.o.f.d.m.tcp.ModbusTCPConnection - ModbusIOException while reading channel:1:holding_registers:1000:int16 used timeout: 3000 ms
+com.ghgande.j2mod.modbus.ModbusIOException: Connection failed for /127.0.0.1:502 Connection refused: getsockopt
+	at com.ghgande.j2mod.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:134)
+	at org.openmuc.framework.driver.modbus.ModbusConnection.performModbusReadTransaction(ModbusConnection.java:266)
+	at org.openmuc.framework.driver.modbus.ModbusConnection.executeReadTransaction(ModbusConnection.java:252)
+	at org.openmuc.framework.driver.modbus.ModbusConnection.readHoldingRegisters(ModbusConnection.java:414)
+	at org.openmuc.framework.driver.modbus.ModbusConnection.readHoldingRegisters(ModbusConnection.java:419)
+	at org.openmuc.framework.driver.modbus.ModbusConnection.readChannel(ModbusConnection.java:113)
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.read(ModbusTCPConnection.java:126)
+	at org.openmuc.framework.core.datamanager.SamplingTask.executeRead(SamplingTask.java:79)
+	at org.openmuc.framework.core.datamanager.SamplingTask.run(SamplingTask.java:89)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+25.07.12 11:06:04.526 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.d.m.tcp.ModbusTCPConnection - Disconnect Modbus TCP device
+25.07.12 11:06:04.527 [OpenMUC Data Manager Pool - thread-1] WARN  o.o.f.core.datamanager.SamplingTask - Connection to device device1 lost because Try to solve issue with reconnect.. Trying to reconnect...
+25.07.12 11:06:04.528 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.driver.modbus.ModbusDriver - Set sampling timeout to 3000 ms.
+25.07.12 11:06:04.530 [OpenMUC Data Manager Pool - thread-1] ERROR o.o.f.d.m.tcp.ModbusTCPConnection - Unable to connect to device 127.0.0.1:502
+org.openmuc.framework.driver.spi.ConnectionException: java.net.ConnectException: Connection refused: getsockopt
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.connect(ModbusTCPConnection.java:84)
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.<init>(ModbusTCPConnection.java:69)
+	at org.openmuc.framework.driver.modbus.ModbusDriver.connect(ModbusDriver.java:112)
+	at org.openmuc.framework.core.datamanager.ConnectTask.run(ConnectTask.java:44)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.ghgande.j2mod.modbus.net.TCPMasterConnection.connect(TCPMasterConnection.java:146)
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.connect(ModbusTCPConnection.java:82)
+	... 6 common frames omitted
+25.07.12 11:06:04.531 [OpenMUC Data Manager Pool - thread-1] WARN  o.o.f.core.datamanager.ConnectTask - Unable to connect to device device1 because null.
+Will try again in 60000 ms.
+25.07.12 11:07:32.575 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.15+6
+25.07.12 11:07:32.637 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.07.12 11:07:32.668 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5fb7d7c5{/,null,AVAILABLE}
+25.07.12 11:07:32.668 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@69278724{STARTING}[11.0.22,sto=0] @2222ms
+25.07.12 11:07:32.794 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@39467350{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 11:07:32.840 [FelixStartLevel] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@74bc0517(openmuc,h=[openmuc],a=[],w=[]) for Server@325bf77a[provider=null,keyStore=file:///C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/https-certificate.jks,trustStore=null]
+25.07.12 11:07:32.934 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7e1c573c{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 11:07:32.934 [FelixStartLevel] INFO  org.apache.felix.http - Started Jetty 11.0.22 at port(s) HTTP:8888 HTTPS:8889 on context path / [minThreads=8,maxThreads=200,acceptors=1,selectors=4]
+25.07.12 11:07:33.248 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf\channels.xml
+25.07.12 11:07:33.264 [FelixStartLevel] WARN  o.o.f.core.datamanager.Device - No driver bundle available for configured driver: 'modbus'.
+25.07.12 11:07:33.303 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Activating Ascii Logger
+25.07.12 11:07:33.305 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: asciilogger
+25.07.12 11:07:33.305 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.07.12 11:07:33.327 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: sqllogger
+25.07.12 11:07:33.351 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: aggregator
+25.07.12 11:07:33.363 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: csv
+25.07.12 11:07:33.372 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Activating MathDriver
+25.07.12 11:07:33.374 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: math
+25.07.12 11:07:33.385 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: modbus
+25.07.12 11:07:33.387 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.driver.modbus.ModbusDriver - Set sampling timeout to 3000 ms.
+25.07.12 11:07:33.390 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.07.12 11:07:33.403 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.d.m.tcp.ModbusTCPConnection - Modbus Device: 127.0.0.1:502 connected
+25.07.12 11:07:33.490 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 1c3a3f77-1a6e-4712-9d62-e07b5419112b
+25.07.12 11:07:33.490 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - updated server mappings for 1c3a3f77-1a6e-4712-9d62-e07b5419112b
+25.07.12 11:07:33.491 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:07:33.570 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Access Tool.
+25.07.12 11:07:33.571 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Configurator.
+25.07.12 11:07:33.571 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Exporter.
+25.07.12 11:07:33.572 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Plotter.
+25.07.12 11:07:33.572 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Media Viewer.
+25.07.12 11:07:33.572 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Simple Demo Visualisation.
+25.07.12 11:07:33.573 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin User Configurator.
+25.07.12 11:07:33.573 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - Activating WebUI Base
+25.07.12 11:07:33.588 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Configurator
+25.07.12 11:07:33.589 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Access Tool
+25.07.12 11:07:33.590 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Plotter
+25.07.12 11:07:33.591 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Media Viewer
+25.07.12 11:07:33.592 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Simple Demo Visualisation
+25.07.12 11:07:33.593 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: User Configurator
+25.07.12 11:07:33.594 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Exporter
+25.07.12 11:07:33.612 [FelixStartLevel] INFO  o.o.f.server.restws.RestServer - Activating REST Server
+25.07.12 11:07:33.682 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.07.12 11:07:36.094 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:07:36.114 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - sql driver
+25.07.12 11:07:36.115 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - URL is: jdbc:h2:retry:file:./data/h2/h2;AUTO_SERVER=TRUE;MODE=MYSQL
+25.07.12 11:07:36.130 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 1c3a3f77-1a6e-4712-9d62-e07b5419112b
+25.07.12 11:07:36.158 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - No updates in mappings. Leaving server unchanged
+25.07.12 11:07:36.159 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:07:40.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:07:40.628 [CM Configuration Updater (Update: pid=org.openmuc.framework.lib.ssl.SslManager)] INFO  o.o.framework.lib.ssl.SslManager - Successfully loaded
+25.07.12 11:07:40.629 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Server d8851f67-e4a1-4614-9814-f66080494ba4 got update with {felix.fileinstall.filename=file:/C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg, port=10003, schedulingEnabled=true, sclPath=conf/iec61850-server-example.cid, service.pid=org.openmuc.framework.server.iec61850.server.Iec61850Server}
+25.07.12 11:07:40.629 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server d8851f67-e4a1-4614-9814-f66080494ba4
+25.07.12 11:31:53.191 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.15+6
+25.07.12 11:31:53.301 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.07.12 11:31:53.317 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1b752796{/,null,AVAILABLE}
+25.07.12 11:31:53.348 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@3aa61638{STARTING}[11.0.22,sto=0] @5056ms
+25.07.12 11:31:53.536 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3e9f9cbc{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 11:31:53.599 [FelixStartLevel] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@8a437a2(openmuc,h=[openmuc],a=[],w=[]) for Server@efd3ba2[provider=null,keyStore=file:///C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/https-certificate.jks,trustStore=null]
+25.07.12 11:31:53.802 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@363282dd{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 11:31:53.802 [FelixStartLevel] INFO  org.apache.felix.http - Started Jetty 11.0.22 at port(s) HTTP:8888 HTTPS:8889 on context path / [minThreads=8,maxThreads=200,acceptors=1,selectors=4]
+25.07.12 11:31:54.224 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf\channels.xml
+25.07.12 11:31:54.253 [FelixStartLevel] WARN  o.o.f.core.datamanager.Device - No driver bundle available for configured driver: 'modbus'.
+25.07.12 11:31:54.299 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Activating Ascii Logger
+25.07.12 11:31:54.301 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: asciilogger
+25.07.12 11:31:54.301 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.07.12 11:31:54.333 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: sqllogger
+25.07.12 11:31:54.365 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: aggregator
+25.07.12 11:31:54.384 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: csv
+25.07.12 11:31:54.412 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Activating MathDriver
+25.07.12 11:31:54.414 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: math
+25.07.12 11:31:54.430 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: modbus
+25.07.12 11:31:54.430 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.driver.modbus.ModbusDriver - Set sampling timeout to 3000 ms.
+25.07.12 11:31:54.430 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.07.12 11:31:54.461 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.d.m.tcp.ModbusTCPConnection - Modbus Device: 127.0.0.1:502 connected
+25.07.12 11:31:54.607 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 535feb54-09ca-41ca-a393-3a912892067d
+25.07.12 11:31:54.613 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server a1647f2d-c4a3-48d2-bbb1-c7dc20516ee5
+25.07.12 11:31:54.614 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - updated server mappings for a1647f2d-c4a3-48d2-bbb1-c7dc20516ee5
+25.07.12 11:31:54.615 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:31:54.718 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Access Tool.
+25.07.12 11:31:54.718 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Configurator.
+25.07.12 11:31:54.719 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Exporter.
+25.07.12 11:31:54.719 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Plotter.
+25.07.12 11:31:54.720 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Media Viewer.
+25.07.12 11:31:54.720 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Simple Demo Visualisation.
+25.07.12 11:31:54.720 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin User Configurator.
+25.07.12 11:31:54.721 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - Activating WebUI Base
+25.07.12 11:31:54.738 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Configurator
+25.07.12 11:31:54.739 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Access Tool
+25.07.12 11:31:54.754 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Plotter
+25.07.12 11:31:54.755 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Media Viewer
+25.07.12 11:31:54.756 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Simple Demo Visualisation
+25.07.12 11:31:54.758 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: User Configurator
+25.07.12 11:31:54.760 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Exporter
+25.07.12 11:31:54.808 [FelixStartLevel] INFO  o.o.f.server.restws.RestServer - Activating REST Server
+25.07.12 11:31:54.859 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.07.12 11:31:56.001 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:31:58.548 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - sql driver
+25.07.12 11:31:58.548 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - URL is: jdbc:h2:retry:file:./data/h2/h2;AUTO_SERVER=TRUE;MODE=MYSQL
+25.07.12 11:31:58.563 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server a1647f2d-c4a3-48d2-bbb1-c7dc20516ee5
+25.07.12 11:31:58.563 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 8d19ee55-6341-4235-b0f3-8ca31ba71c91
+25.07.12 11:31:58.579 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - No updates in mappings. Leaving server unchanged
+25.07.12 11:31:58.579 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:32:00.002 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:32:03.598 [CM Configuration Updater (Update: pid=org.openmuc.framework.lib.ssl.SslManager)] INFO  o.o.framework.lib.ssl.SslManager - Successfully loaded
+25.07.12 11:32:03.599 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Server 081f8609-eaa3-4a77-8bc8-fab98ffab8ee got update with {felix.fileinstall.filename=file:/C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg, port=10003, schedulingEnabled=true, sclPath=conf/iec61850-server-example.cid, service.pid=org.openmuc.framework.server.iec61850.server.Iec61850Server}
+25.07.12 11:32:03.600 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 081f8609-eaa3-4a77-8bc8-fab98ffab8ee
+25.07.12 11:32:54.319 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.15+6
+25.07.12 11:32:54.382 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.07.12 11:32:54.397 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@221b34db{/,null,AVAILABLE}
+25.07.12 11:32:54.413 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@6ab4c271{STARTING}[11.0.22,sto=0] @2032ms
+25.07.12 11:32:54.538 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4d07707{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 11:32:54.554 [FelixStartLevel] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@4af63b81(openmuc,h=[openmuc],a=[],w=[]) for Server@3522e15b[provider=null,keyStore=file:///C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/https-certificate.jks,trustStore=null]
+25.07.12 11:32:54.648 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@8e3c3cf{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 11:32:54.648 [FelixStartLevel] INFO  org.apache.felix.http - Started Jetty 11.0.22 at port(s) HTTP:8888 HTTPS:8889 on context path / [minThreads=8,maxThreads=200,acceptors=1,selectors=4]
+25.07.12 11:32:55.007 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf\channels.xml
+25.07.12 11:32:55.023 [FelixStartLevel] WARN  o.o.f.core.datamanager.Device - No driver bundle available for configured driver: 'modbus'.
+25.07.12 11:32:55.023 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Activating OpenMUC Modbus Reader/Writer App
+25.07.12 11:32:55.023 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Reader: Listening to Modbus channel 'register1'
+25.07.12 11:32:55.031 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Writer: Scheduled periodic writes to 'register1' every 5 seconds
+25.07.12 11:32:55.032 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 101 to Modbus channel 'register1'
+25.07.12 11:32:55.047 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 101 to Modbus channel 'register1'
+25.07.12 11:32:55.048 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752300175046) (DataType: SHORT)
+25.07.12 11:32:55.051 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Activating Ascii Logger
+25.07.12 11:32:55.052 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: asciilogger
+25.07.12 11:32:55.073 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.07.12 11:32:55.084 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: sqllogger
+25.07.12 11:32:55.123 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: aggregator
+25.07.12 11:32:55.136 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Activating MathDriver
+25.07.12 11:32:55.137 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: math
+25.07.12 11:32:55.157 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: modbus
+25.07.12 11:32:55.159 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752300175046) (DataType: SHORT)
+25.07.12 11:32:55.161 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.f.driver.modbus.ModbusDriver - Set sampling timeout to 3000 ms.
+25.07.12 11:32:55.164 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.07.12 11:32:55.181 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.f.d.m.tcp.ModbusTCPConnection - Modbus Device: 127.0.0.1:502 connected
+25.07.12 11:32:55.181 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752300175046) (DataType: SHORT)
+25.07.12 11:32:55.378 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 2455d171-4cad-4fde-b939-a0d6cc40db52
+25.07.12 11:32:55.379 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - updated server mappings for 2455d171-4cad-4fde-b939-a0d6cc40db52
+25.07.12 11:32:55.381 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:32:55.451 [FelixStartLevel] INFO  o.o.f.server.modbus.ModbusComponent - Activating Modbus Server
+25.07.12 11:32:55.455 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - New empty config file: conf/properties/org.openmuc.framework.server.modbus.ModbusServer.cfg
+25.07.12 11:32:55.472 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: modbus.
+25.07.12 11:32:55.577 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Access Tool.
+25.07.12 11:32:55.578 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Configurator.
+25.07.12 11:32:55.578 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Exporter.
+25.07.12 11:32:55.579 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Plotter.
+25.07.12 11:32:55.579 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Media Viewer.
+25.07.12 11:32:55.580 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Simple Demo Visualisation.
+25.07.12 11:32:55.580 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin User Configurator.
+25.07.12 11:32:55.581 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - Activating WebUI Base
+25.07.12 11:32:55.593 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Configurator
+25.07.12 11:32:55.594 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Access Tool
+25.07.12 11:32:55.594 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Plotter
+25.07.12 11:32:55.595 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Media Viewer
+25.07.12 11:32:55.597 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Simple Demo Visualisation
+25.07.12 11:32:55.598 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: User Configurator
+25.07.12 11:32:55.600 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Exporter
+25.07.12 11:32:55.648 [FelixStartLevel] INFO  o.o.f.server.restws.RestServer - Activating REST Server
+25.07.12 11:32:55.770 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.07.12 11:32:56.008 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:32:56.023 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752300176010) (DataType: INTEGER)
+25.07.12 11:32:57.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752300177002) (DataType: INTEGER)
+25.07.12 11:32:58.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752300178003) (DataType: INTEGER)
+25.07.12 11:32:59.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752300179002) (DataType: INTEGER)
+25.07.12 11:32:59.830 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - sql driver
+25.07.12 11:32:59.832 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - URL is: jdbc:h2:retry:file:./data/h2/h2;AUTO_SERVER=TRUE;MODE=MYSQL
+25.07.12 11:32:59.874 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 2455d171-4cad-4fde-b939-a0d6cc40db52
+25.07.12 11:32:59.881 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - No updates in mappings. Leaving server unchanged
+25.07.12 11:32:59.881 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:33:00.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:33:00.006 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752300180004) (DataType: INTEGER)
+25.07.12 11:33:00.031 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 102 to Modbus channel 'register1'
+25.07.12 11:33:00.033 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 102 to Modbus channel 'register1'
+25.07.12 11:33:00.033 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752300180033) (DataType: SHORT)
+25.07.12 11:33:01.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752300181002) (DataType: INTEGER)
+25.07.12 11:33:02.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752300182001) (DataType: INTEGER)
+25.07.12 11:33:03.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752300183001) (DataType: INTEGER)
+25.07.12 11:33:04.002 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:33:04.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752300184003) (DataType: INTEGER)
+25.07.12 11:33:04.413 [CM Configuration Updater (Update: pid=org.openmuc.framework.lib.ssl.SslManager)] INFO  o.o.framework.lib.ssl.SslManager - Successfully loaded
+25.07.12 11:33:04.414 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Server d82b2e88-b945-42f2-a852-bd80d329f293 got update with {felix.fileinstall.filename=file:/C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg, port=10003, schedulingEnabled=true, sclPath=conf/iec61850-server-example.cid, service.pid=org.openmuc.framework.server.iec61850.server.Iec61850Server}
+25.07.12 11:33:04.588 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server d82b2e88-b945-42f2-a852-bd80d329f293
+25.07.12 11:33:05.000 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752300185000) (DataType: INTEGER)
+25.07.12 11:33:05.031 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 103 to Modbus channel 'register1'
+25.07.12 11:33:05.032 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 103 to Modbus channel 'register1'
+25.07.12 11:33:05.032 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752300185032) (DataType: SHORT)
+25.07.12 11:33:06.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752300186002) (DataType: INTEGER)
+25.07.12 11:33:07.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752300187002) (DataType: INTEGER)
+25.07.12 11:33:08.008 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752300188007) (DataType: INTEGER)
+25.07.12 11:33:09.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752300189000) (DataType: INTEGER)
+25.07.12 11:33:10.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752300190001) (DataType: INTEGER)
+25.07.12 11:33:10.031 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 104 to Modbus channel 'register1'
+25.07.12 11:33:10.035 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 104 (Timestamp: 1752300190035) (DataType: SHORT)
+25.07.12 11:33:10.035 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 104 to Modbus channel 'register1'
+25.07.12 11:33:11.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 104 (Timestamp: 1752300191002) (DataType: INTEGER)
+25.07.12 11:33:12.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 104 (Timestamp: 1752300192003) (DataType: INTEGER)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   25.07.12 11:46:06.482 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.15+6
+25.07.12 11:46:06.795 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.07.12 11:46:06.875 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@38c250fe{/,null,AVAILABLE}
+25.07.12 11:46:06.968 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@7e74ff67{STARTING}[11.0.22,sto=0] @7162ms
+25.07.12 11:46:07.397 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1e02b24d{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 11:46:07.513 [FelixStartLevel] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@4c434d82(openmuc,h=[openmuc],a=[],w=[]) for Server@569e8049[provider=null,keyStore=file:///C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/https-certificate.jks,trustStore=null]
+25.07.12 11:46:07.895 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@434b30c9{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 11:46:07.898 [FelixStartLevel] INFO  org.apache.felix.http - Started Jetty 11.0.22 at port(s) HTTP:8888 HTTPS:8889 on context path / [minThreads=8,maxThreads=200,acceptors=1,selectors=4]
+25.07.12 11:46:08.546 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf\channels.xml
+25.07.12 11:46:08.637 [FelixStartLevel] WARN  o.o.f.core.datamanager.Device - No driver bundle available for configured driver: 'modbus'.
+25.07.12 11:46:08.676 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Activating OpenMUC Modbus Reader/Writer App
+25.07.12 11:46:08.678 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Reader: Listening to Modbus channel 'register1'
+25.07.12 11:46:08.683 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Writer: Scheduled periodic writes to 'register1' every 5 seconds
+25.07.12 11:46:08.689 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 101 to Modbus channel 'register1'
+25.07.12 11:46:08.701 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 101 to Modbus channel 'register1'
+25.07.12 11:46:08.777 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752300968698) (DataType: SHORT)
+25.07.12 11:46:08.795 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Activating Ascii Logger
+25.07.12 11:46:08.798 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: asciilogger
+25.07.12 11:46:08.826 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.07.12 11:46:08.842 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - url is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 11:46:08.845 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - user is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 11:46:08.846 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - password is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 11:46:08.848 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - ssl is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 11:46:08.849 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - socket_timeout is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 11:46:08.851 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - tcp_keep_alive is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 11:46:08.852 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - psql_pass is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 11:46:08.854 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - timezone is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 11:46:08.859 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg is deprecated
+25.07.12 11:46:08.865 [OpenMUC Data Manager] ERROR o.o.f.datalogger.ascii.AsciiLogger - File is coruppted, could not fill up, renamed it. C:\Users\amits\OneDrive\Desktop\modbus\openmuc\framework\data\ascii\20250712_4000.dat
+25.07.12 11:46:08.867 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: sqllogger
+25.07.12 11:46:08.952 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: aggregator
+25.07.12 11:46:08.966 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Activating MathDriver
+25.07.12 11:46:08.968 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: math
+25.07.12 11:46:09.002 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: modbus
+25.07.12 11:46:09.004 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752300968698) (DataType: SHORT)
+25.07.12 11:46:09.006 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.driver.modbus.ModbusDriver - Set sampling timeout to 3000 ms.
+25.07.12 11:46:09.010 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.07.12 11:46:09.047 [OpenMUC Data Manager Pool - thread-1] ERROR o.o.f.d.m.tcp.ModbusTCPConnection - Unable to connect to device 127.0.0.1:502
+org.openmuc.framework.driver.spi.ConnectionException: java.net.ConnectException: Connection refused: getsockopt
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.connect(ModbusTCPConnection.java:84)
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.<init>(ModbusTCPConnection.java:69)
+	at org.openmuc.framework.driver.modbus.ModbusDriver.connect(ModbusDriver.java:112)
+	at org.openmuc.framework.core.datamanager.ConnectTask.run(ConnectTask.java:44)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.ghgande.j2mod.modbus.net.TCPMasterConnection.connect(TCPMasterConnection.java:146)
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.connect(ModbusTCPConnection.java:82)
+	... 6 common frames omitted
+25.07.12 11:46:09.049 [OpenMUC Data Manager Pool - thread-1] WARN  o.o.f.core.datamanager.ConnectTask - Unable to connect to device device1 because null.
+Will try again in 60000 ms.
+25.07.12 11:46:09.050 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752300968698) (DataType: SHORT)
+25.07.12 11:46:09.115 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - keystore is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 11:46:09.116 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - keystorepassword is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 11:46:09.116 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - truststore is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 11:46:09.117 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - truststorepassword is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 11:46:09.118 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                                                                    in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg is deprecated
+25.07.12 11:46:09.238 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - port is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 11:46:09.239 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - sclPath is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 11:46:09.239 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - schedulingEnabled is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 11:46:09.240 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                           in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg is deprecated
+25.07.12 11:46:09.245 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 03746c2f-f941-4caa-8c00-2dfe5bfe0652
+25.07.12 11:46:09.246 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - updated server mappings for 03746c2f-f941-4caa-8c00-2dfe5bfe0652
+25.07.12 11:46:09.248 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:46:09.267 [FelixStartLevel] INFO  o.o.f.server.modbus.ModbusComponent - Activating Modbus Server
+25.07.12 11:46:09.283 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: modbus.
+25.07.12 11:46:09.480 [FelixStartLevel] INFO  o.o.f.server.restws.RestServer - Activating REST Server
+25.07.12 11:46:09.508 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Access Tool.
+25.07.12 11:46:09.509 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Configurator.
+25.07.12 11:46:09.509 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Exporter.
+25.07.12 11:46:09.510 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Plotter.
+25.07.12 11:46:09.510 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Media Viewer.
+25.07.12 11:46:09.511 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Simple Demo Visualisation.
+25.07.12 11:46:09.511 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin User Configurator.
+25.07.12 11:46:09.512 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - Activating WebUI Base
+25.07.12 11:46:09.519 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Configurator
+25.07.12 11:46:09.522 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Access Tool
+25.07.12 11:46:09.524 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Plotter
+25.07.12 11:46:09.526 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Media Viewer
+25.07.12 11:46:09.529 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Simple Demo Visualisation
+25.07.12 11:46:09.530 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: User Configurator
+25.07.12 11:46:09.532 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Exporter
+25.07.12 11:46:09.641 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.07.12 11:46:12.028 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:46:13.389 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 03746c2f-f941-4caa-8c00-2dfe5bfe0652
+25.07.12 11:46:13.404 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator - port is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 11:46:13.464 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator - sclPath is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 11:46:13.465 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator - schedulingEnabled is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 11:46:13.466 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                           in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg is deprecated
+25.07.12 11:46:13.467 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - No updates in mappings. Leaving server unchanged
+25.07.12 11:46:13.468 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 11:46:13.473 [CM Configuration Updater (ManagedService Update: pid=[org.openmuc.framework.server.iec61850.server.Iec61850Server])] INFO  o.o.f.s.i.server.Iec61850Server - Server fe0e9579-afd1-4f67-a126-a0d5220955eb got update with {felix.fileinstall.filename=file:/C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg, service.pid=org.openmuc.framework.server.iec61850.server.Iec61850Server}
+25.07.12 11:46:13.475 [CM Configuration Updater (ManagedService Update: pid=[org.openmuc.framework.server.iec61850.server.Iec61850Server])] ERROR o.o.f.s.i.server.Iec61850Server - Update properties failed
+org.openmuc.framework.lib.osgi.config.ServicePropertyException: Missing Property: updated property dictionary doesn't contain key port
+	at org.openmuc.framework.lib.osgi.config.PropertyHandler.checkForMissingKeys(PropertyHandler.java:148)
+	at org.openmuc.framework.lib.osgi.config.PropertyHandler.validateKeys(PropertyHandler.java:139)
+	at org.openmuc.framework.lib.osgi.config.PropertyHandler.processConfig(PropertyHandler.java:93)
+	at org.openmuc.framework.server.iec61850.server.Iec61850Server.updated(Iec61850Server.java:265)
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.updated(ManagedServiceTracker.java:189)
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.updateService(ManagedServiceTracker.java:152)
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.provideConfiguration(ManagedServiceTracker.java:85)
+	at org.apache.felix.cm.impl.ConfigurationManager$ManagedServiceUpdate.provide(ConfigurationManager.java:1131)
+	at org.apache.felix.cm.impl.ConfigurationManager$ManagedServiceUpdate.run(ConfigurationManager.java:1087)
+	at org.apache.felix.cm.impl.UpdateThread.run0(UpdateThread.java:122)
+	at org.apache.felix.cm.impl.UpdateThread.run(UpdateThread.java:84)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+25.07.12 11:46:13.477 [CM Configuration Updater (ManagedService Update: pid=[org.openmuc.framework.server.iec61850.server.Iec61850Server])] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server fe0e9579-afd1-4f67-a126-a0d5220955eb
+25.07.12 11:46:13.683 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 102 to Modbus channel 'register1'
+25.07.12 11:46:13.685 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 102 to Modbus channel 'register1'
+25.07.12 11:46:13.686 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752300973685) (DataType: SHORT)
+25.07.12 11:46:16.020 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:46:18.683 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 103 to Modbus channel 'register1'
+25.07.12 11:46:18.686 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 103 to Modbus channel 'register1'
+25.07.12 11:46:18.686 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752300978686) (DataType: SHORT)
+25.07.12 11:46:20.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:46:23.684 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 104 to Modbus channel 'register1'
+25.07.12 11:46:23.688 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 104 to Modbus channel 'register1'
+25.07.12 11:46:23.688 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 104 (Timestamp: 1752300983688) (DataType: SHORT)
+25.07.12 11:46:24.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:46:28.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:46:28.683 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 105 to Modbus channel 'register1'
+25.07.12 11:46:28.686 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 105 to Modbus channel 'register1'
+25.07.12 11:46:28.686 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 105 (Timestamp: 1752300988686) (DataType: SHORT)
+25.07.12 11:46:32.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 11:46:33.683 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 106 to Modbus channel 'register1'
+25.07.12 11:46:33.686 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 106 (Timestamp: 1752300993686) (DataType: SHORT)
+25.07.12 11:46:33.686 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 106 to Modbus channel 'register1'
+25.07.12 12:00:19.876 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.15+6
+25.07.12 12:00:20.153 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.07.12 12:00:20.245 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@365cac9{/,null,AVAILABLE}
+25.07.12 12:00:20.279 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@2261827b{STARTING}[11.0.22,sto=0] @10073ms
+25.07.12 12:00:20.718 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1454d07{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 12:00:20.826 [FelixStartLevel] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@376c72a4(openmuc,h=[openmuc],a=[],w=[]) for Server@29e12ca9[provider=null,keyStore=file:///C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/https-certificate.jks,trustStore=null]
+25.07.12 12:00:21.127 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@133ee035{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 12:00:21.134 [FelixStartLevel] INFO  org.apache.felix.http - Started Jetty 11.0.22 at port(s) HTTP:8888 HTTPS:8889 on context path / [minThreads=8,maxThreads=200,acceptors=1,selectors=4]
+25.07.12 12:00:22.354 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf\channels.xml
+25.07.12 12:00:22.569 [FelixStartLevel] WARN  o.o.f.core.datamanager.Device - No driver bundle available for configured driver: 'modbus'.
+25.07.12 12:00:22.620 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Activating OpenMUC Modbus Reader/Writer App
+25.07.12 12:00:22.632 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Reader: Listening to Modbus channel 'register1'
+25.07.12 12:00:22.635 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Writer: Scheduled periodic writes to 'register1' every 5 seconds
+25.07.12 12:00:22.650 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 101 to Modbus channel 'register1'
+25.07.12 12:00:22.672 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 101 to Modbus channel 'register1'
+25.07.12 12:00:22.674 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Activating Ascii Logger
+25.07.12 12:00:22.679 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752301822669) (DataType: SHORT)
+25.07.12 12:00:22.681 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: asciilogger
+25.07.12 12:00:22.706 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.07.12 12:00:22.715 [OpenMUC Data Manager] ERROR o.o.f.datalogger.ascii.AsciiLogger - File is coruppted, could not fill up, renamed it. C:\Users\amits\OneDrive\Desktop\modbus\openmuc\framework\data\ascii\20250712_4000.dat
+25.07.12 12:00:22.715 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - url is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:00:22.724 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - user is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:00:22.726 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - password is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:00:22.726 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - ssl is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:00:22.728 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - socket_timeout is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:00:22.728 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - tcp_keep_alive is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:00:22.729 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - psql_pass is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:00:22.730 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - timezone is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:00:22.733 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg is deprecated
+25.07.12 12:00:22.742 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: sqllogger
+25.07.12 12:00:22.823 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: aggregator
+25.07.12 12:00:22.844 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Activating MathDriver
+25.07.12 12:00:22.850 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: math
+25.07.12 12:00:22.881 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: modbus
+25.07.12 12:00:22.883 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752301822669) (DataType: SHORT)
+25.07.12 12:00:23.083 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.f.driver.modbus.ModbusDriver - Set sampling timeout to 3000 ms.
+25.07.12 12:00:22.889 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.07.12 12:00:23.115 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.f.d.m.tcp.ModbusTCPConnection - Modbus Device: 127.0.0.1:502 connected
+25.07.12 12:00:23.117 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752301822669) (DataType: SHORT)
+25.07.12 12:00:23.336 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - keystore is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 12:00:23.348 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - keystorepassword is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 12:00:23.372 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - truststore is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 12:00:23.374 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - truststorepassword is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 12:00:23.376 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                                                                    in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg is deprecated
+25.07.12 12:00:23.523 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - port is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:00:23.567 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - sclPath is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:00:23.568 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - schedulingEnabled is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:00:23.569 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                           in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg is deprecated
+25.07.12 12:00:23.577 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server a052b2c9-0919-450d-b281-922f45ba4ce0
+25.07.12 12:00:23.583 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - port is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:00:23.584 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - sclPath is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:00:23.585 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - schedulingEnabled is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:00:23.586 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                           in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg is deprecated
+25.07.12 12:00:23.587 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 2b05d2a3-7b9b-4e40-9c91-604e138f0fd0
+25.07.12 12:00:23.588 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - updated server mappings for 2b05d2a3-7b9b-4e40-9c91-604e138f0fd0
+25.07.12 12:00:23.591 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 12:00:23.626 [FelixStartLevel] INFO  o.o.f.server.modbus.ModbusComponent - Activating Modbus Server
+25.07.12 12:00:23.706 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: modbus.
+25.07.12 12:00:24.058 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:00:24.175 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752301824091) (DataType: INTEGER)
+25.07.12 12:00:24.234 [FelixStartLevel] INFO  o.o.f.server.restws.RestServer - Activating REST Server
+25.07.12 12:00:24.313 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Access Tool.
+25.07.12 12:00:24.347 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Configurator.
+25.07.12 12:00:24.372 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Exporter.
+25.07.12 12:00:24.375 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Plotter.
+25.07.12 12:00:24.376 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Media Viewer.
+25.07.12 12:00:24.377 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Simple Demo Visualisation.
+25.07.12 12:00:24.377 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin User Configurator.
+25.07.12 12:00:24.378 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - Activating WebUI Base
+25.07.12 12:00:24.390 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Configurator
+25.07.12 12:00:24.392 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Access Tool
+25.07.12 12:00:24.399 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Plotter
+25.07.12 12:00:24.402 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Media Viewer
+25.07.12 12:00:24.404 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Simple Demo Visualisation
+25.07.12 12:00:24.410 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: User Configurator
+25.07.12 12:00:24.412 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Exporter
+25.07.12 12:00:24.541 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.07.12 12:00:25.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752301825002) (DataType: INTEGER)
+25.07.12 12:00:26.018 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752301826017) (DataType: INTEGER)
+25.07.12 12:00:27.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752301827001) (DataType: INTEGER)
+25.07.12 12:00:27.618 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 2b05d2a3-7b9b-4e40-9c91-604e138f0fd0
+25.07.12 12:00:27.624 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator - port is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:00:27.625 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator - sclPath is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:00:27.686 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator - schedulingEnabled is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:00:27.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 102 to Modbus channel 'register1'
+25.07.12 12:00:27.696 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                           in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg is deprecated
+25.07.12 12:00:27.699 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 102 to Modbus channel 'register1'
+25.07.12 12:00:27.699 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752301827699) (DataType: SHORT)
+25.07.12 12:00:27.700 [CM Configuration Updater (ManagedService Update: pid=[org.openmuc.framework.server.iec61850.server.Iec61850Server])] INFO  o.o.f.s.i.server.Iec61850Server - Server b76127e8-9f2e-4349-87d8-7b6b2d767ab5 got update with {felix.fileinstall.filename=file:/C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg, service.pid=org.openmuc.framework.server.iec61850.server.Iec61850Server}
+25.07.12 12:00:27.701 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - No updates in mappings. Leaving server unchanged
+25.07.12 12:00:27.704 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 12:00:27.706 [CM Configuration Updater (ManagedService Update: pid=[org.openmuc.framework.server.iec61850.server.Iec61850Server])] ERROR o.o.f.s.i.server.Iec61850Server - Update properties failed
+org.openmuc.framework.lib.osgi.config.ServicePropertyException: Missing Property: updated property dictionary doesn't contain key port
+	at org.openmuc.framework.lib.osgi.config.PropertyHandler.checkForMissingKeys(PropertyHandler.java:148)
+	at org.openmuc.framework.lib.osgi.config.PropertyHandler.validateKeys(PropertyHandler.java:139)
+	at org.openmuc.framework.lib.osgi.config.PropertyHandler.processConfig(PropertyHandler.java:93)
+	at org.openmuc.framework.server.iec61850.server.Iec61850Server.updated(Iec61850Server.java:265)
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.updated(ManagedServiceTracker.java:189)
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.updateService(ManagedServiceTracker.java:152)
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.provideConfiguration(ManagedServiceTracker.java:85)
+	at org.apache.felix.cm.impl.ConfigurationManager$ManagedServiceUpdate.provide(ConfigurationManager.java:1131)
+	at org.apache.felix.cm.impl.ConfigurationManager$ManagedServiceUpdate.run(ConfigurationManager.java:1087)
+	at org.apache.felix.cm.impl.UpdateThread.run0(UpdateThread.java:122)
+	at org.apache.felix.cm.impl.UpdateThread.run(UpdateThread.java:84)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+25.07.12 12:00:27.709 [CM Configuration Updater (ManagedService Update: pid=[org.openmuc.framework.server.iec61850.server.Iec61850Server])] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server b76127e8-9f2e-4349-87d8-7b6b2d767ab5
+25.07.12 12:00:28.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:00:28.006 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752301828005) (DataType: INTEGER)
+25.07.12 12:00:29.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752301829002) (DataType: INTEGER)
+25.07.12 12:00:30.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752301830002) (DataType: INTEGER)
+25.07.12 12:00:31.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752301831001) (DataType: INTEGER)
+25.07.12 12:00:32.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:00:32.006 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752301832005) (DataType: INTEGER)
+25.07.12 12:00:32.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 103 to Modbus channel 'register1'
+25.07.12 12:00:32.638 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752301832638) (DataType: SHORT)
+25.07.12 12:00:32.638 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 103 to Modbus channel 'register1'
+25.07.12 12:00:33.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752301833002) (DataType: INTEGER)
+25.07.12 12:00:34.001 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752301834000) (DataType: INTEGER)
+25.07.12 12:00:35.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752301835001) (DataType: INTEGER)
+25.07.12 12:00:36.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:00:36.006 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752301836005) (DataType: INTEGER)
+25.07.12 12:00:37.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 103 (Timestamp: 1752301837001) (DataType: INTEGER)
+25.07.12 12:00:37.746 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 104 to Modbus channel 'register1'
+25.07.12 12:00:37.750 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 104 (Timestamp: 1752301837750) (DataType: SHORT)
+25.07.12 12:00:37.750 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 104 to Modbus channel 'register1'
+25.07.12 12:00:38.013 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 104 (Timestamp: 1752301838012) (DataType: INTEGER)
+25.07.12 12:00:39.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 104 (Timestamp: 1752301839001) (DataType: INTEGER)
+25.07.12 12:00:40.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:00:40.006 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 104 (Timestamp: 1752301840005) (DataType: INTEGER)
+25.07.12 12:00:41.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 104 (Timestamp: 1752301841002) (DataType: INTEGER)
+25.07.12 12:00:42.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 104 (Timestamp: 1752301842003) (DataType: INTEGER)
+25.07.12 12:00:42.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 105 to Modbus channel 'register1'
+25.07.12 12:00:42.639 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 105 to Modbus channel 'register1'
+25.07.12 12:00:42.639 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 105 (Timestamp: 1752301842638) (DataType: SHORT)
+25.07.12 12:00:43.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 105 (Timestamp: 1752301843000) (DataType: INTEGER)
+25.07.12 12:00:44.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:00:44.005 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 105 (Timestamp: 1752301844004) (DataType: INTEGER)
+25.07.12 12:00:45.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 105 (Timestamp: 1752301845001) (DataType: INTEGER)
+25.07.12 12:00:46.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 105 (Timestamp: 1752301846003) (DataType: INTEGER)
+25.07.12 12:00:47.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 105 (Timestamp: 1752301847002) (DataType: INTEGER)
+25.07.12 12:00:47.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 106 to Modbus channel 'register1'
+25.07.12 12:00:47.639 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 106 to Modbus channel 'register1'
+25.07.12 12:00:47.639 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 106 (Timestamp: 1752301847638) (DataType: SHORT)
+25.07.12 12:00:48.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:00:48.006 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 106 (Timestamp: 1752301848005) (DataType: INTEGER)
+25.07.12 12:00:49.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 106 (Timestamp: 1752301849002) (DataType: INTEGER)
+25.07.12 12:00:50.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 106 (Timestamp: 1752301850000) (DataType: INTEGER)
+25.07.12 12:00:51.001 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 106 (Timestamp: 1752301851000) (DataType: INTEGER)
+25.07.12 12:00:52.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:00:52.006 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 106 (Timestamp: 1752301852005) (DataType: INTEGER)
+25.07.12 12:00:52.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 107 to Modbus channel 'register1'
+25.07.12 12:00:52.638 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 107 (Timestamp: 1752301852637) (DataType: SHORT)
+25.07.12 12:00:52.638 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 107 to Modbus channel 'register1'
+25.07.12 12:00:53.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 107 (Timestamp: 1752301853001) (DataType: INTEGER)
+25.07.12 12:00:54.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 107 (Timestamp: 1752301854003) (DataType: INTEGER)
+25.07.12 12:00:55.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 107 (Timestamp: 1752301855002) (DataType: INTEGER)
+25.07.12 12:00:56.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:00:56.009 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 107 (Timestamp: 1752301856007) (DataType: INTEGER)
+25.07.12 12:00:57.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 107 (Timestamp: 1752301857001) (DataType: INTEGER)
+25.07.12 12:00:57.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 108 to Modbus channel 'register1'
+25.07.12 12:00:57.639 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 108 to Modbus channel 'register1'
+25.07.12 12:00:57.639 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 108 (Timestamp: 1752301857639) (DataType: SHORT)
+25.07.12 12:00:58.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 108 (Timestamp: 1752301858001) (DataType: INTEGER)
+25.07.12 12:00:59.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 108 (Timestamp: 1752301859001) (DataType: INTEGER)
+25.07.12 12:01:00.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:00.009 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 108 (Timestamp: 1752301860007) (DataType: INTEGER)
+25.07.12 12:01:01.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 108 (Timestamp: 1752301861001) (DataType: INTEGER)
+25.07.12 12:01:02.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 108 (Timestamp: 1752301862000) (DataType: INTEGER)
+25.07.12 12:01:02.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 109 to Modbus channel 'register1'
+25.07.12 12:01:02.639 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 109 (Timestamp: 1752301862639) (DataType: SHORT)
+25.07.12 12:01:02.639 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 109 to Modbus channel 'register1'
+25.07.12 12:01:03.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 109 (Timestamp: 1752301863001) (DataType: INTEGER)
+25.07.12 12:01:04.007 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:04.010 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 109 (Timestamp: 1752301864009) (DataType: INTEGER)
+25.07.12 12:01:05.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 109 (Timestamp: 1752301865001) (DataType: INTEGER)
+25.07.12 12:01:06.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 109 (Timestamp: 1752301866002) (DataType: INTEGER)
+25.07.12 12:01:07.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 109 (Timestamp: 1752301867000) (DataType: INTEGER)
+25.07.12 12:01:07.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 110 to Modbus channel 'register1'
+25.07.12 12:01:07.640 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 110 to Modbus channel 'register1'
+25.07.12 12:01:07.640 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 110 (Timestamp: 1752301867640) (DataType: SHORT)
+25.07.12 12:01:08.007 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:08.011 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 110 (Timestamp: 1752301868009) (DataType: INTEGER)
+25.07.12 12:01:09.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 110 (Timestamp: 1752301869001) (DataType: INTEGER)
+25.07.12 12:01:10.295 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 110 (Timestamp: 1752301870001) (DataType: INTEGER)
+25.07.12 12:01:11.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 110 (Timestamp: 1752301871002) (DataType: INTEGER)
+25.07.12 12:01:12.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:12.008 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 110 (Timestamp: 1752301872007) (DataType: INTEGER)
+25.07.12 12:01:12.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 111 to Modbus channel 'register1'
+25.07.12 12:01:12.638 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 111 (Timestamp: 1752301872637) (DataType: SHORT)
+25.07.12 12:01:12.638 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 111 to Modbus channel 'register1'
+25.07.12 12:01:13.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 111 (Timestamp: 1752301873000) (DataType: INTEGER)
+25.07.12 12:01:14.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 111 (Timestamp: 1752301874002) (DataType: INTEGER)
+25.07.12 12:01:15.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 111 (Timestamp: 1752301875000) (DataType: INTEGER)
+25.07.12 12:01:16.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:16.007 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 111 (Timestamp: 1752301876005) (DataType: INTEGER)
+25.07.12 12:01:17.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 111 (Timestamp: 1752301877000) (DataType: INTEGER)
+25.07.12 12:01:17.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 112 to Modbus channel 'register1'
+25.07.12 12:01:17.640 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 112 (Timestamp: 1752301877639) (DataType: SHORT)
+25.07.12 12:01:17.640 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 112 to Modbus channel 'register1'
+25.07.12 12:01:18.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 112 (Timestamp: 1752301878001) (DataType: INTEGER)
+25.07.12 12:01:19.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 112 (Timestamp: 1752301879001) (DataType: INTEGER)
+25.07.12 12:01:20.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:20.009 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 112 (Timestamp: 1752301880007) (DataType: INTEGER)
+25.07.12 12:01:21.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 112 (Timestamp: 1752301881000) (DataType: INTEGER)
+25.07.12 12:01:22.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 112 (Timestamp: 1752301882000) (DataType: INTEGER)
+25.07.12 12:01:22.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 113 to Modbus channel 'register1'
+25.07.12 12:01:22.641 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 113 (Timestamp: 1752301882641) (DataType: SHORT)
+25.07.12 12:01:22.641 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 113 to Modbus channel 'register1'
+25.07.12 12:01:23.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 113 (Timestamp: 1752301883001) (DataType: INTEGER)
+25.07.12 12:01:24.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:24.007 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 113 (Timestamp: 1752301884005) (DataType: INTEGER)
+25.07.12 12:01:25.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 113 (Timestamp: 1752301885001) (DataType: INTEGER)
+25.07.12 12:01:26.001 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 113 (Timestamp: 1752301886000) (DataType: INTEGER)
+25.07.12 12:01:27.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 113 (Timestamp: 1752301887001) (DataType: INTEGER)
+25.07.12 12:01:27.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 114 to Modbus channel 'register1'
+25.07.12 12:01:27.641 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 114 (Timestamp: 1752301887641) (DataType: SHORT)
+25.07.12 12:01:27.641 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 114 to Modbus channel 'register1'
+25.07.12 12:01:28.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:28.005 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 114 (Timestamp: 1752301888004) (DataType: INTEGER)
+25.07.12 12:01:29.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 114 (Timestamp: 1752301889000) (DataType: INTEGER)
+25.07.12 12:01:30.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 114 (Timestamp: 1752301890002) (DataType: INTEGER)
+25.07.12 12:01:31.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 114 (Timestamp: 1752301891000) (DataType: INTEGER)
+25.07.12 12:01:32.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:32.010 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 114 (Timestamp: 1752301892007) (DataType: INTEGER)
+25.07.12 12:01:32.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 115 to Modbus channel 'register1'
+25.07.12 12:01:32.639 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 115 to Modbus channel 'register1'
+25.07.12 12:01:32.639 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 115 (Timestamp: 1752301892639) (DataType: SHORT)
+25.07.12 12:01:33.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 115 (Timestamp: 1752301893001) (DataType: INTEGER)
+25.07.12 12:01:34.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 115 (Timestamp: 1752301894000) (DataType: INTEGER)
+25.07.12 12:01:35.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 115 (Timestamp: 1752301895000) (DataType: INTEGER)
+25.07.12 12:01:36.006 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:36.010 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 115 (Timestamp: 1752301896008) (DataType: INTEGER)
+25.07.12 12:01:37.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 115 (Timestamp: 1752301897000) (DataType: INTEGER)
+25.07.12 12:01:37.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 116 to Modbus channel 'register1'
+25.07.12 12:01:37.640 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 116 (Timestamp: 1752301897639) (DataType: SHORT)
+25.07.12 12:01:37.640 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 116 to Modbus channel 'register1'
+25.07.12 12:01:38.006 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 116 (Timestamp: 1752301898005) (DataType: INTEGER)
+25.07.12 12:01:39.001 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 116 (Timestamp: 1752301899000) (DataType: INTEGER)
+25.07.12 12:01:40.002 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:40.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 116 (Timestamp: 1752301900002) (DataType: INTEGER)
+25.07.12 12:01:41.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 116 (Timestamp: 1752301901001) (DataType: INTEGER)
+25.07.12 12:01:42.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 116 (Timestamp: 1752301902001) (DataType: INTEGER)
+25.07.12 12:01:42.644 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 117 to Modbus channel 'register1'
+25.07.12 12:01:42.646 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 117 to Modbus channel 'register1'
+25.07.12 12:01:42.646 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 117 (Timestamp: 1752301902645) (DataType: SHORT)
+25.07.12 12:01:43.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 117 (Timestamp: 1752301903000) (DataType: INTEGER)
+25.07.12 12:01:44.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:44.007 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 117 (Timestamp: 1752301904006) (DataType: INTEGER)
+25.07.12 12:01:45.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 117 (Timestamp: 1752301905002) (DataType: INTEGER)
+25.07.12 12:01:46.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 117 (Timestamp: 1752301906002) (DataType: INTEGER)
+25.07.12 12:01:47.001 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 117 (Timestamp: 1752301907001) (DataType: INTEGER)
+25.07.12 12:01:47.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 118 to Modbus channel 'register1'
+25.07.12 12:01:47.640 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 118 (Timestamp: 1752301907639) (DataType: SHORT)
+25.07.12 12:01:47.640 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 118 to Modbus channel 'register1'
+25.07.12 12:01:48.020 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:48.024 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 118 (Timestamp: 1752301908023) (DataType: INTEGER)
+25.07.12 12:01:49.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 118 (Timestamp: 1752301909001) (DataType: INTEGER)
+25.07.12 12:01:50.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 118 (Timestamp: 1752301910001) (DataType: INTEGER)
+25.07.12 12:01:51.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 118 (Timestamp: 1752301911003) (DataType: INTEGER)
+25.07.12 12:01:52.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:52.007 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 118 (Timestamp: 1752301912005) (DataType: INTEGER)
+25.07.12 12:01:52.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 119 to Modbus channel 'register1'
+25.07.12 12:01:52.637 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 119 to Modbus channel 'register1'
+25.07.12 12:01:52.637 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 119 (Timestamp: 1752301912636) (DataType: SHORT)
+25.07.12 12:01:53.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 119 (Timestamp: 1752301913000) (DataType: INTEGER)
+25.07.12 12:01:54.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 119 (Timestamp: 1752301914001) (DataType: INTEGER)
+25.07.12 12:01:55.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 119 (Timestamp: 1752301915001) (DataType: INTEGER)
+25.07.12 12:01:56.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:01:56.006 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 119 (Timestamp: 1752301916005) (DataType: INTEGER)
+25.07.12 12:01:57.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 119 (Timestamp: 1752301917002) (DataType: INTEGER)
+25.07.12 12:01:57.637 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 120 to Modbus channel 'register1'
+25.07.12 12:01:57.649 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 120 to Modbus channel 'register1'
+25.07.12 12:01:57.649 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 120 (Timestamp: 1752301917648) (DataType: SHORT)
+25.07.12 12:01:58.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 120 (Timestamp: 1752301918001) (DataType: INTEGER)
+25.07.12 12:01:59.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 120 (Timestamp: 1752301919002) (DataType: INTEGER)
+25.07.12 12:02:00.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:00.006 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 120 (Timestamp: 1752301920004) (DataType: INTEGER)
+25.07.12 12:02:01.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 120 (Timestamp: 1752301921001) (DataType: INTEGER)
+25.07.12 12:02:02.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 120 (Timestamp: 1752301922002) (DataType: INTEGER)
+25.07.12 12:02:02.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 121 to Modbus channel 'register1'
+25.07.12 12:02:02.641 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 121 (Timestamp: 1752301922640) (DataType: SHORT)
+25.07.12 12:02:02.641 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 121 to Modbus channel 'register1'
+25.07.12 12:02:03.001 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 121 (Timestamp: 1752301923000) (DataType: INTEGER)
+25.07.12 12:02:04.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:04.005 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 121 (Timestamp: 1752301924004) (DataType: INTEGER)
+25.07.12 12:02:05.005 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 121 (Timestamp: 1752301925002) (DataType: INTEGER)
+25.07.12 12:02:06.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 121 (Timestamp: 1752301926001) (DataType: INTEGER)
+25.07.12 12:02:07.005 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 121 (Timestamp: 1752301927003) (DataType: INTEGER)
+25.07.12 12:02:07.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 122 to Modbus channel 'register1'
+25.07.12 12:02:07.641 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 122 to Modbus channel 'register1'
+25.07.12 12:02:07.641 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 122 (Timestamp: 1752301927640) (DataType: SHORT)
+25.07.12 12:02:08.006 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:08.009 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 122 (Timestamp: 1752301928007) (DataType: INTEGER)
+25.07.12 12:02:09.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 122 (Timestamp: 1752301929001) (DataType: INTEGER)
+25.07.12 12:02:10.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 122 (Timestamp: 1752301930001) (DataType: INTEGER)
+25.07.12 12:02:11.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 122 (Timestamp: 1752301931002) (DataType: INTEGER)
+25.07.12 12:02:12.006 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:12.009 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 122 (Timestamp: 1752301932008) (DataType: INTEGER)
+25.07.12 12:02:12.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 123 to Modbus channel 'register1'
+25.07.12 12:02:12.639 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 123 to Modbus channel 'register1'
+25.07.12 12:02:12.639 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 123 (Timestamp: 1752301932638) (DataType: SHORT)
+25.07.12 12:02:13.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 123 (Timestamp: 1752301933001) (DataType: INTEGER)
+25.07.12 12:02:14.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 123 (Timestamp: 1752301934000) (DataType: INTEGER)
+25.07.12 12:02:15.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 123 (Timestamp: 1752301935000) (DataType: INTEGER)
+25.07.12 12:02:16.006 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:16.010 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 123 (Timestamp: 1752301936008) (DataType: INTEGER)
+25.07.12 12:02:17.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 123 (Timestamp: 1752301937001) (DataType: INTEGER)
+25.07.12 12:02:17.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 124 to Modbus channel 'register1'
+25.07.12 12:02:17.637 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 124 to Modbus channel 'register1'
+25.07.12 12:02:17.637 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 124 (Timestamp: 1752301937636) (DataType: SHORT)
+25.07.12 12:02:18.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 124 (Timestamp: 1752301938000) (DataType: INTEGER)
+25.07.12 12:02:19.006 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 124 (Timestamp: 1752301939004) (DataType: INTEGER)
+25.07.12 12:02:20.006 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:20.010 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 124 (Timestamp: 1752301940008) (DataType: INTEGER)
+25.07.12 12:02:21.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 124 (Timestamp: 1752301941001) (DataType: INTEGER)
+25.07.12 12:02:22.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 124 (Timestamp: 1752301942001) (DataType: INTEGER)
+25.07.12 12:02:22.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 125 to Modbus channel 'register1'
+25.07.12 12:02:22.638 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 125 to Modbus channel 'register1'
+25.07.12 12:02:22.638 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 125 (Timestamp: 1752301942638) (DataType: SHORT)
+25.07.12 12:02:23.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 125 (Timestamp: 1752301943000) (DataType: INTEGER)
+25.07.12 12:02:24.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:24.008 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 125 (Timestamp: 1752301944006) (DataType: INTEGER)
+25.07.12 12:02:25.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 125 (Timestamp: 1752301945000) (DataType: INTEGER)
+25.07.12 12:02:26.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 125 (Timestamp: 1752301946001) (DataType: INTEGER)
+25.07.12 12:02:27.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 125 (Timestamp: 1752301947002) (DataType: INTEGER)
+25.07.12 12:02:27.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 126 to Modbus channel 'register1'
+25.07.12 12:02:27.639 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 126 to Modbus channel 'register1'
+25.07.12 12:02:27.639 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 126 (Timestamp: 1752301947639) (DataType: SHORT)
+25.07.12 12:02:28.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:28.009 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 126 (Timestamp: 1752301948007) (DataType: INTEGER)
+25.07.12 12:02:29.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 126 (Timestamp: 1752301949001) (DataType: INTEGER)
+25.07.12 12:02:30.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 126 (Timestamp: 1752301950001) (DataType: INTEGER)
+25.07.12 12:02:31.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 126 (Timestamp: 1752301951000) (DataType: INTEGER)
+25.07.12 12:02:32.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:32.009 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 126 (Timestamp: 1752301952006) (DataType: INTEGER)
+25.07.12 12:02:32.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 127 to Modbus channel 'register1'
+25.07.12 12:02:32.638 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 127 (Timestamp: 1752301952638) (DataType: SHORT)
+25.07.12 12:02:32.638 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 127 to Modbus channel 'register1'
+25.07.12 12:02:33.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 127 (Timestamp: 1752301953000) (DataType: INTEGER)
+25.07.12 12:02:34.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 127 (Timestamp: 1752301954002) (DataType: INTEGER)
+25.07.12 12:02:35.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 127 (Timestamp: 1752301955000) (DataType: INTEGER)
+25.07.12 12:02:36.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:36.007 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 127 (Timestamp: 1752301956005) (DataType: INTEGER)
+25.07.12 12:02:37.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 127 (Timestamp: 1752301957000) (DataType: INTEGER)
+25.07.12 12:02:37.635 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 128 to Modbus channel 'register1'
+25.07.12 12:02:37.639 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 128 (Timestamp: 1752301957638) (DataType: SHORT)
+25.07.12 12:02:37.639 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 128 to Modbus channel 'register1'
+25.07.12 12:02:38.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 128 (Timestamp: 1752301958001) (DataType: INTEGER)
+25.07.12 12:02:39.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 128 (Timestamp: 1752301959001) (DataType: INTEGER)
+25.07.12 12:02:40.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:40.009 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 128 (Timestamp: 1752301960007) (DataType: INTEGER)
+25.07.12 12:02:41.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 128 (Timestamp: 1752301961000) (DataType: INTEGER)
+25.07.12 12:02:42.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 128 (Timestamp: 1752301962001) (DataType: INTEGER)
+25.07.12 12:02:42.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 129 to Modbus channel 'register1'
+25.07.12 12:02:42.640 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 129 to Modbus channel 'register1'
+25.07.12 12:02:42.640 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 129 (Timestamp: 1752301962640) (DataType: SHORT)
+25.07.12 12:02:43.018 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 129 (Timestamp: 1752301963015) (DataType: INTEGER)
+25.07.12 12:02:44.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:44.007 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 129 (Timestamp: 1752301964005) (DataType: INTEGER)
+25.07.12 12:02:45.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 129 (Timestamp: 1752301965001) (DataType: INTEGER)
+25.07.12 12:02:46.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 129 (Timestamp: 1752301966001) (DataType: INTEGER)
+25.07.12 12:02:47.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 129 (Timestamp: 1752301967001) (DataType: INTEGER)
+25.07.12 12:02:47.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 130 to Modbus channel 'register1'
+25.07.12 12:02:47.639 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 130 (Timestamp: 1752301967638) (DataType: SHORT)
+25.07.12 12:02:47.639 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 130 to Modbus channel 'register1'
+25.07.12 12:02:48.004 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:48.007 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 130 (Timestamp: 1752301968006) (DataType: INTEGER)
+25.07.12 12:02:49.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 130 (Timestamp: 1752301969001) (DataType: INTEGER)
+25.07.12 12:02:50.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 130 (Timestamp: 1752301970002) (DataType: INTEGER)
+25.07.12 12:02:51.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 130 (Timestamp: 1752301971001) (DataType: INTEGER)
+25.07.12 12:02:52.005 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:02:52.009 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 130 (Timestamp: 1752301972007) (DataType: INTEGER)
+25.07.12 12:02:52.636 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 131 to Modbus channel 'register1'
+25.07.12 12:02:52.639 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 131 to Modbus channel 'register1'
+25.07.12 12:02:52.639 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 131 (Timestamp: 1752301972638) (DataType: SHORT)
+25.07.12 12:02:53.000 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 131 (Timestamp: 1752301973000) (DataType: INTEGER)
+25.07.12 12:02:54.003 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 131 (Timestamp: 1752301974002) (DataType: INTEGER)
+25.07.12 12:02:55.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 131 (Timestamp: 1752301975001) (DataType: INTEGER)
+25.07.12 12:35:06.205 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.15+6
+25.07.12 12:35:06.340 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.07.12 12:35:06.388 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@75caae17{/,null,AVAILABLE}
+25.07.12 12:35:06.422 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@66b7d0cc{STARTING}[11.0.22,sto=0] @5093ms
+25.07.12 12:35:06.823 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@5b814bce{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+25.07.12 12:35:06.905 [FelixStartLevel] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@569e8049(openmuc,h=[openmuc],a=[],w=[]) for Server@5aeff2e3[provider=null,keyStore=file:///C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/https-certificate.jks,trustStore=null]
+25.07.12 12:35:07.108 [FelixStartLevel] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6a65c28c{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+25.07.12 12:35:07.108 [FelixStartLevel] INFO  org.apache.felix.http - Started Jetty 11.0.22 at port(s) HTTP:8888 HTTPS:8889 on context path / [minThreads=8,maxThreads=200,acceptors=1,selectors=4]
+25.07.12 12:35:08.336 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf\channels.xml
+25.07.12 12:35:08.387 [FelixStartLevel] WARN  o.o.f.core.datamanager.Device - No driver bundle available for configured driver: 'modbus'.
+25.07.12 12:35:08.421 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Activating OpenMUC Modbus Reader/Writer App
+25.07.12 12:35:08.422 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Reader: Listening to Modbus channel 'register1'
+25.07.12 12:35:08.422 [FelixStartLevel] INFO  o.o.framework.app.modbus.ModbusApp - Writer: Scheduled periodic writes to 'register1' every 5 seconds
+25.07.12 12:35:08.429 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 101 to Modbus channel 'register1'
+25.07.12 12:35:08.435 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 101 to Modbus channel 'register1'
+25.07.12 12:35:08.436 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752303908434) (DataType: SHORT)
+25.07.12 12:35:08.445 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Activating Ascii Logger
+25.07.12 12:35:08.446 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: asciilogger
+25.07.12 12:35:08.465 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.07.12 12:35:08.479 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - url is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:35:08.480 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - user is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:35:08.480 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - password is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:35:08.481 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - ssl is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:35:08.482 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - socket_timeout is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:35:08.483 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - tcp_keep_alive is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:35:08.484 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - psql_pass is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:35:08.485 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - timezone is missing in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.07.12 12:35:08.490 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  in conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg is deprecated
+25.07.12 12:35:08.653 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: sqllogger
+25.07.12 12:35:08.720 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: aggregator
+25.07.12 12:35:08.742 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Activating MathDriver
+25.07.12 12:35:08.744 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: math
+25.07.12 12:35:08.775 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: modbus
+25.07.12 12:35:08.777 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752303908434) (DataType: SHORT)
+25.07.12 12:35:08.780 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.driver.modbus.ModbusDriver - Set sampling timeout to 3000 ms.
+25.07.12 12:35:08.787 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.07.12 12:35:08.820 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.d.m.tcp.ModbusTCPConnection - Modbus Device: 127.0.0.1:502 connected
+25.07.12 12:35:08.822 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 101 (Timestamp: 1752303908434) (DataType: SHORT)
+25.07.12 12:35:08.925 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - keystore is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 12:35:08.926 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - keystorepassword is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 12:35:08.927 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - truststore is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 12:35:08.928 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - truststorepassword is missing in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.07.12 12:35:08.928 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                                                                    in conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg is deprecated
+25.07.12 12:35:09.012 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - port is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:35:09.013 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - sclPath is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:35:09.014 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - schedulingEnabled is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:35:09.015 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                           in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg is deprecated
+25.07.12 12:35:09.024 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server e9f5a8bb-29ec-43bd-99ab-13e772d3a73d
+25.07.12 12:35:09.025 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - updated server mappings for e9f5a8bb-29ec-43bd-99ab-13e772d3a73d
+25.07.12 12:35:09.028 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 12:35:09.058 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752303909003) (DataType: INTEGER)
+25.07.12 12:35:09.062 [FelixStartLevel] INFO  o.o.f.server.modbus.ModbusComponent - Activating Modbus Server
+25.07.12 12:35:09.082 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: modbus.
+25.07.12 12:35:09.328 [FelixStartLevel] INFO  o.o.f.server.restws.RestServer - Activating REST Server
+25.07.12 12:35:09.361 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Access Tool.
+25.07.12 12:35:09.362 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Channel Configurator.
+25.07.12 12:35:09.363 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Exporter.
+25.07.12 12:35:09.363 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Data Plotter.
+25.07.12 12:35:09.364 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Media Viewer.
+25.07.12 12:35:09.364 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin Simple Demo Visualisation.
+25.07.12 12:35:09.365 [FelixStartLevel] WARN  o.o.framework.webui.base.WebUiBase - Can't register WebUI plugin User Configurator.
+25.07.12 12:35:09.366 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - Activating WebUI Base
+25.07.12 12:35:09.375 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Configurator
+25.07.12 12:35:09.377 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Channel Access Tool
+25.07.12 12:35:09.380 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Plotter
+25.07.12 12:35:09.382 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Media Viewer
+25.07.12 12:35:09.384 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Simple Demo Visualisation
+25.07.12 12:35:09.386 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: User Configurator
+25.07.12 12:35:09.390 [FelixStartLevel] INFO  o.o.framework.webui.base.WebUiBase - WebUI plugin registered: Data Exporter
+25.07.12 12:35:09.516 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.07.12 12:35:10.004 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752303910002) (DataType: INTEGER)
+25.07.12 12:35:11.002 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752303911000) (DataType: INTEGER)
+25.07.12 12:35:12.021 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.07.12 12:35:12.028 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server e9f5a8bb-29ec-43bd-99ab-13e772d3a73d
+25.07.12 12:35:12.036 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator - port is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:35:12.037 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator - sclPath is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:35:12.038 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator - schedulingEnabled is missing in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg
+25.07.12 12:35:12.039 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] WARN  o.o.f.l.o.c.PropertyFileValidator -                                                                                                                                                                           in conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg is deprecated
+25.07.12 12:35:12.040 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - No updates in mappings. Leaving server unchanged
+25.07.12 12:35:12.041 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.07.12 12:35:12.044 [CM Configuration Updater (ManagedService Update: pid=[org.openmuc.framework.server.iec61850.server.Iec61850Server])] INFO  o.o.f.s.i.server.Iec61850Server - Server 34f7ba94-44fe-4e57-a034-ca139821d528 got update with {felix.fileinstall.filename=file:/C:/Users/amits/OneDrive/Desktop/modbus/openmuc/framework/conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg, service.pid=org.openmuc.framework.server.iec61850.server.Iec61850Server}
+25.07.12 12:35:12.047 [CM Configuration Updater (ManagedService Update: pid=[org.openmuc.framework.server.iec61850.server.Iec61850Server])] ERROR o.o.f.s.i.server.Iec61850Server - Update properties failed
+org.openmuc.framework.lib.osgi.config.ServicePropertyException: Missing Property: updated property dictionary doesn't contain key port
+	at org.openmuc.framework.lib.osgi.config.PropertyHandler.checkForMissingKeys(PropertyHandler.java:148)
+	at org.openmuc.framework.lib.osgi.config.PropertyHandler.validateKeys(PropertyHandler.java:139)
+	at org.openmuc.framework.lib.osgi.config.PropertyHandler.processConfig(PropertyHandler.java:93)
+	at org.openmuc.framework.server.iec61850.server.Iec61850Server.updated(Iec61850Server.java:265)
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.updated(ManagedServiceTracker.java:189)
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.updateService(ManagedServiceTracker.java:152)
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.provideConfiguration(ManagedServiceTracker.java:85)
+	at org.apache.felix.cm.impl.ConfigurationManager$ManagedServiceUpdate.provide(ConfigurationManager.java:1131)
+	at org.apache.felix.cm.impl.ConfigurationManager$ManagedServiceUpdate.run(ConfigurationManager.java:1087)
+	at org.apache.felix.cm.impl.UpdateThread.run0(UpdateThread.java:122)
+	at org.apache.felix.cm.impl.UpdateThread.run(UpdateThread.java:84)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+25.07.12 12:35:12.049 [CM Configuration Updater (ManagedService Update: pid=[org.openmuc.framework.server.iec61850.server.Iec61850Server])] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 34f7ba94-44fe-4e57-a034-ca139821d528
+25.07.12 12:35:12.631 [OpenMUC Data Manager Pool - thread-2] ERROR o.o.f.d.m.tcp.ModbusTCPConnection - ModbusIOException while reading channel:1:holding_registers:1000:int16 used timeout: 3000 ms
+com.ghgande.j2mod.modbus.ModbusIOException: Connection failed for /127.0.0.1:502 Connection refused: getsockopt
+	at com.ghgande.j2mod.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:134)
+	at org.openmuc.framework.driver.modbus.ModbusConnection.performModbusReadTransaction(ModbusConnection.java:266)
+	at org.openmuc.framework.driver.modbus.ModbusConnection.executeReadTransaction(ModbusConnection.java:252)
+	at org.openmuc.framework.driver.modbus.ModbusConnection.readHoldingRegisters(ModbusConnection.java:414)
+	at org.openmuc.framework.driver.modbus.ModbusConnection.readHoldingRegisters(ModbusConnection.java:419)
+	at org.openmuc.framework.driver.modbus.ModbusConnection.readChannel(ModbusConnection.java:113)
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.read(ModbusTCPConnection.java:126)
+	at org.openmuc.framework.core.datamanager.SamplingTask.executeRead(SamplingTask.java:79)
+	at org.openmuc.framework.core.datamanager.SamplingTask.run(SamplingTask.java:89)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+25.07.12 12:35:12.634 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.f.d.m.tcp.ModbusTCPConnection - Disconnect Modbus TCP device
+25.07.12 12:35:12.635 [OpenMUC Data Manager Pool - thread-2] WARN  o.o.f.core.datamanager.SamplingTask - Connection to device device1 lost because Try to solve issue with reconnect.. Trying to reconnect...
+25.07.12 12:35:12.638 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.f.driver.modbus.ModbusDriver - Set sampling timeout to 3000 ms.
+25.07.12 12:35:12.638 [OpenMUC Data Manager Pool - thread-2] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752303911000) (DataType: INTEGER)
+25.07.12 12:35:12.651 [OpenMUC Data Manager Pool - thread-1] ERROR o.o.f.d.m.tcp.ModbusTCPConnection - Unable to connect to device 127.0.0.1:502
+org.openmuc.framework.driver.spi.ConnectionException: java.net.ConnectException: Connection refused: getsockopt
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.connect(ModbusTCPConnection.java:84)
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.<init>(ModbusTCPConnection.java:69)
+	at org.openmuc.framework.driver.modbus.ModbusDriver.connect(ModbusDriver.java:112)
+	at org.openmuc.framework.core.datamanager.ConnectTask.run(ConnectTask.java:44)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.ghgande.j2mod.modbus.net.TCPMasterConnection.connect(TCPMasterConnection.java:146)
+	at org.openmuc.framework.driver.modbus.tcp.ModbusTCPConnection.connect(ModbusTCPConnection.java:82)
+	... 6 common frames omitted
+25.07.12 12:35:12.654 [OpenMUC Data Manager Pool - thread-1] WARN  o.o.f.core.datamanager.ConnectTask - Unable to connect to device device1 because null.
+Will try again in 60000 ms.
+25.07.12 12:35:12.655 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 0 (Timestamp: 1752303911000) (DataType: INTEGER)
+25.07.12 12:35:13.422 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Writing value 102 to Modbus channel 'register1'
+25.07.12 12:35:13.423 [Timer-1] INFO  o.o.framework.app.modbus.ModbusApp - Successfully wrote value 102 to Modbus channel 'register1'
+25.07.12 12:35:13.423 [OpenMUC Data Manager Pool - thread-1] INFO  o.o.framework.app.modbus.ModbusApp - Read value from register1: 102 (Timestamp: 1752303913423) (DataType: SHORT)
+25.07.12 12:35:16.019 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
