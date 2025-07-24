@@ -1,6 +1,8 @@
 package org.openmuc.framework.app.modbus;
 
+import org.openmuc.framework.data.Flag;
 import org.openmuc.framework.data.Record;
+
 import org.openmuc.framework.data.Value;
 import org.openmuc.framework.data.ShortValue;
 import org.openmuc.framework.dataaccess.Channel;
@@ -28,7 +30,7 @@ public final class ModbusApp {
     private DataAccessService dataAccessService;
     private Channel modbusChannel;
     private RecordListener modbusListener;
-
+    private boolean isDeviceConnected = true;
     private Timer writeTimer;
     private int writeCounter = 100; // Starting value for write
 
@@ -90,36 +92,46 @@ public final class ModbusApp {
             return;
         }
 
-        try {
-            Value value = new ShortValue(valueToWrite.shortValue());
-            logger.info("Writing value {} to Modbus channel 'register1'", valueToWrite);
-            modbusChannel.write(value);
-            logger.info("Successfully wrote value {} to Modbus channel 'register1'", valueToWrite);
 
-            // Log the write action to CSV
-            saveToCSV("WRITE", valueToWrite);
+
+        try {
+            if (isDeviceConnected) {
+                Value value = new ShortValue(valueToWrite.shortValue());
+                logger.info("Writing value {} to Modbus channel 'register1'", valueToWrite);
+                modbusChannel.write(value);
+                logger.info("Successfully wrote value {} to Modbus channel 'register1'", valueToWrite);
+
+                saveToCSV("WRITE", valueToWrite);
+            }
         } catch (Exception e) {
-            logger.error("Failed to write value {} to Modbus channel 'register1': {}", valueToWrite, e.getMessage(), e);
+            logger.error("Write failed to register1, device might be disconnected");
+            isDeviceConnected = false;
+
         }
     }
+
 
     private class ModbusListener implements RecordListener {
         @Override
         public void newRecord(Record record) {
-            if (record != null && record.getValue() != null) {
-                Number readValue = record.getValue().asShort(); // if INT16
+            logger.info("Record received: {}", record);
 
+            if (record != null && record.getValue() != null && record.getFlag() == Flag.VALID) {
+                isDeviceConnected = true;
 
+                Number readValue = record.getValue().asShort();
                 logger.info("Read value from register1: {} (Timestamp: {}) (DataType: {})",
                         readValue, record.getTimestamp(), record.getValue().getValueType());
 
-                // Log the read action to CSV
                 saveToCSV("READ", readValue);
             } else {
-                logger.warn("Received null record or value from register1");
+                isDeviceConnected = false;
+                logger.warn("Invalid record or device disconnected. Flag = {}", record != null ? record.getFlag() : "null");
+
             }
         }
     }
+
 
     private void initializeCSV() {
         try (FileWriter writer = new FileWriter(CSV_FILE_PATH, true)) {
